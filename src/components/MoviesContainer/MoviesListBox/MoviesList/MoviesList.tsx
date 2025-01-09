@@ -9,7 +9,7 @@ type MoviesListProps = {
 
 const MoviesList = ({ movies, onSelectMovie }: MoviesListProps) => {
   if (movies.length === 0) {
-    return <p>No movies available</p>; // Or return null if you want nothing to be rendered
+    return <p className='error'>No movies available</p>; // Or return null if you want nothing to be rendered
   }
   return (
     <ul className='list list-movies'>
