@@ -1,0 +1,28 @@
+.num-results {
+  justify-self: end;
+  font-size: 1.8rem;
+}
+
+
+/* Responsive Styles */
+
+/* For devices with width <= 1024px */
+@media (max-width: 1024px) {
+  .num-results {
+    font-size: 1.6rem;
+  }
+}
+
+/* For devices with width <= 768px */
+@media (max-width: 768px) {
+  .num-results {
+    font-size: 1.4rem;
+  }
+}
+
+/* For devices with width <= 480px */
+@media (max-width: 480px) {
+  .num-results {
+    font-size: 1.4rem;
+  }
+}

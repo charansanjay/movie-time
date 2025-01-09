@@ -1,0 +1,34 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 7.2rem;
+  padding: 0 3.2rem;
+  background-color: var(--color-primary);
+  border-radius: 0.9rem;
+}
+
+/* Responsive Styles */
+
+/* For devices with width <= 1024px */
+@media (max-width: 1024px) {
+  .nav-bar {
+    padding: 0 2rem;
+  }
+}
+
+/* For devices with width <= 768px */
+@media (max-width: 768px) {
+  .nav-bar {
+    padding: 1rem 3.2rem;
+    gap: 3rem;
+  }
+}
+
+/* For devices with width <= 480px */
+@media (max-width: 480px) {
+  .nav-bar {
+    padding: .5rem 1rem;
+    gap: 3rem;
+  }
+}

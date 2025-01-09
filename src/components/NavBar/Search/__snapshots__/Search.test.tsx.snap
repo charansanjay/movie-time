@@ -1,0 +1,23 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Search Component > should match the snapshot 1`] = `
+<DocumentFragment>
+  <input
+    class="search"
+    placeholder="Search movies..."
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;
+
+exports[`Search Component > should match the snapshot with a query value 1`] = `
+<DocumentFragment>
+  <input
+    class="search"
+    placeholder="Search movies..."
+    type="text"
+    value="test"
+  />
+</DocumentFragment>
+`;

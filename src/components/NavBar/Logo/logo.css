@@ -1,0 +1,48 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo img {
+  font-size: 3.2rem;
+  width: 4rem;
+}
+
+.logo h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Responsive Styles */
+
+/* For devices with width <= 1024px */
+@media (max-width: 1024px) {
+  .logo h1 {
+    font-size: 2rem;
+  }
+}
+
+/* For devices with width <= 768px */
+@media (max-width: 768px) {
+  .logo h1 {
+    font-size: 1.8rem;
+    display: none;
+  }
+
+  .logo img {
+    width: 3rem;
+  }
+}
+
+/* For devices with width <= 480px */
+@media (max-width: 480px) {
+  .logo h1 {
+    font-size: 1.6rem;
+  }
+
+  .logo img {
+    width: 2.5rem;
+  }
+}
