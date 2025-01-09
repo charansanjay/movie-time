@@ -1,4 +1,4 @@
-# <img src="./src/images/cinema.svg" alt="SVG Image" width="30" height="30" /> Movie Time App ( React + TypeScript + Vitest -  <img src="./src/images/react_logo.svg" alt="SVG Image" width="30" height="30" />  + <img src="./src/images/typescript.svg" alt="SVG Image" width="30" height="30" /> + <img src="./src/images/Vitest.svg" alt="SVG Image" width="30" height="30" /> )
+# <img src="./src/images/cinema.svg" alt="SVG Image" width="30" height="30" /> Movie Time App ( React + TypeScript + Vitest -  <img src="./src/images/react_logo.svg" alt="SVG Image" width="30" height="30" />  + <img src="./src/images/typescript.svg" alt="SVG Image" width="30" height="30" /> + <img src="./src/images/vitest.svg" alt="SVG Image" width="30" height="30" /> )
 
   A movie discovery web application built with **`React`** and **`TypeScript`** and tested using **`Vitest`**. The app allows users to search for movies, view movie details, and manage a list of watched movies, leveraging the OMDB API.
 
