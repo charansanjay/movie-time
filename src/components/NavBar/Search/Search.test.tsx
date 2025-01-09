@@ -5,7 +5,7 @@ import {
   cleanup,
   waitFor,
 } from '@testing-library/react';
-import { describe, it, expect, vi, Mock, afterEach, beforeEach } from 'vitest';
+import { describe, it, expect, vi, afterEach } from 'vitest';
 import '@testing-library/jest-dom';
 
 import Search from './Search.tsx';
