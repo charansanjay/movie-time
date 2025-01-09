@@ -24,14 +24,14 @@ describe('Search Component', () => {
     expect(screen.getByPlaceholderText('Search movies...')).toBeInTheDocument();
   });
 
-  /*   it('should call setQuery when the input value changes', async () => {
+  it('should call setQuery when the input value changes', async () => {
     render(<Search query='' setQuery={setQuery} />);
     const input = screen.getByPlaceholderText('Search movies...');
     fireEvent.change(input, { target: { value: 'test' } });
     await waitFor(() => {
       expect(setQuery).toHaveBeenCalledTimes(1);
     });
-  }); */
+  });
 
   it('should call setQuery with the correct value when the input value changes', async () => {
     render(<Search query='' setQuery={setQuery} />);
@@ -64,5 +64,4 @@ describe('Search Component', () => {
     const { asFragment } = render(<Search query='test' setQuery={setQuery} />);
     expect(asFragment()).toMatchSnapshot();
   });
-
 });
